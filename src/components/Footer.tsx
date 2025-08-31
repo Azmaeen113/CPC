@@ -27,10 +27,7 @@ const Footer = () => {
               Empowering individuals and families to rebuild their foundation for a better life 
               through innovative blockchain technology and community support.
             </p>
-            <div className="flex items-center space-x-2">
-              <Heart className="w-4 h-4 text-primary" />
-              <span className="text-sm text-foreground/60">Built with hope</span>
-            </div>
+
           </div>
 
           {/* Quick Links */}

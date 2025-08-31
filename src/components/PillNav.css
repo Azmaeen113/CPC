@@ -170,6 +170,12 @@
 @media (max-width: 768px) {
   .pill-nav {
     padding: 1rem;
+    justify-content: space-between;
+  }
+  
+  .pill-logo {
+    position: static;
+    left: auto;
   }
   
   .desktop-only {
@@ -182,6 +188,8 @@
   
   .mobile-menu-button {
     display: flex;
+    position: static;
+    right: auto;
   }
 }
 

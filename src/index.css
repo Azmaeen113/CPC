@@ -85,10 +85,21 @@ All colors MUST be HSL.
       radial-gradient(circle at 20% 50%, hsl(193 100% 50% / 0.1) 0%, transparent 50%),
       radial-gradient(circle at 80% 20%, hsl(193 80% 60% / 0.1) 0%, transparent 50%),
       radial-gradient(circle at 40% 80%, hsl(210 25% 8% / 0.8) 0%, transparent 50%);
+    width: 100%;
+    min-width: 100vw;
+    overflow-x: hidden;
   }
 
   html {
     scroll-behavior: smooth;
+    width: 100%;
+    min-width: 100vw;
+    overflow-x: hidden;
+  }
+
+  #root {
+    width: 100%;
+    min-width: 100vw;
   }
 }
 
