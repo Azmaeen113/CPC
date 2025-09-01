@@ -27,8 +27,8 @@ const TokenInfo = () => {
     }
   };
 
-  const openEtherscan = () => {
-    window.open(`https://etherscan.io/address/${contractAddress}`, '_blank');
+  const openBscScan = () => {
+    window.open(`https://bscscan.com/address/${contractAddress}`, '_blank');
   };
 
   return (
@@ -61,7 +61,7 @@ const TokenInfo = () => {
                   </div>
                   <div className="text-left">
                     <div className="text-2xl font-montserrat font-bold text-foreground">Century Platinum Coin</div>
-                    <div className="text-sm text-foreground/60">ERC-20 Token</div>
+                    <div className="text-sm text-foreground/60">BEP-20 Token</div>
                   </div>
                 </div>
               </div>
@@ -92,7 +92,7 @@ const TokenInfo = () => {
                       <Button
                         variant="outline"
                         size="sm"
-                        onClick={openEtherscan}
+                        onClick={openBscScan}
                         className="border-primary/30 text-primary hover:bg-primary/10 transition-smooth"
                       >
                         <ExternalLink className="w-4 h-4" />
@@ -100,7 +100,7 @@ const TokenInfo = () => {
                     </div>
                   </div>
                   <p className="text-sm text-foreground/60">
-                    Click to copy the contract address or view on Etherscan
+                    Click to copy the contract address or view on BscScan
                   </p>
                 </div>
               </div>
@@ -109,11 +109,11 @@ const TokenInfo = () => {
               <div className="grid md:grid-cols-3 gap-6">
                 <div className="text-center space-y-2">
                   <div className="text-sm text-foreground/60">Network</div>
-                  <div className="text-lg font-semibold text-primary">Ethereum</div>
+                  <div className="text-lg font-semibold text-primary">BNB</div>
                 </div>
                 <div className="text-center space-y-2">
                   <div className="text-sm text-foreground/60">Token Standard</div>
-                  <div className="text-lg font-semibold text-primary">ERC-20</div>
+                  <div className="text-lg font-semibold text-primary">BEP-20</div>
                 </div>
                 <div className="text-center space-y-2">
                   <div className="text-sm text-foreground/60">Symbol</div>

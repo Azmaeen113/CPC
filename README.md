@@ -2,11 +2,11 @@
 
 ## Project Overview
 
-Century Platinum Coin (CPC) is a cryptocurrency project built on the Ethereum blockchain, designed to empower individuals and families to rebuild their foundation for a better life.
+Century Platinum Coin (CPC) is a cryptocurrency project built on the BNB blockchain, designed to empower individuals and families to rebuild their foundation for a better life.
 
 ## Project Features
 
-- **Blockchain Technology**: Built on Ethereum with smart contracts
+- **Blockchain Technology**: Built on BNB with smart contracts
 - **Community Driven**: Transparent and community-audited protocols
 - **Social Impact**: Every transaction contributes to foundation funds
 - **Democratic Participation**: Token holders have voting rights

@@ -80,14 +80,14 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-center space-x-2">
                 <Shield className="w-4 h-4 text-primary" />
-                <span className="text-sm text-foreground/70">Ethereum Network</span>
+                <span className="text-sm text-foreground/70">BNB Network</span>
               </div>
               <div className="text-sm text-foreground/70">
                 Contract: 0x49b83Ca1331...
               </div>
-              <div className="text-sm text-foreground/70">
-                ERC-20 Token
-              </div>
+                              <div className="text-sm text-foreground/70">
+                  BEP-20 Token
+                </div>
             </div>
           </div>
         </div>

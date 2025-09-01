@@ -72,7 +72,7 @@ const Hero = () => {
             {/* Trust Indicators */}
             <div className="flex items-center space-x-6 pt-8 opacity-70">
               <div className="text-sm font-inter">
-                <div className="text-primary font-semibold">Ethereum</div>
+                <div className="text-primary font-semibold">BNB</div>
                 <div className="text-foreground/60">Network</div>
               </div>
               <div className="w-px h-12 bg-border"></div>

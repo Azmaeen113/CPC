@@ -23,7 +23,7 @@ const Benefits = () => {
     {
       icon: Shield,
       title: "Secure & Transparent",
-      description: "Built on Ethereum blockchain with full transparency, smart contracts, and community-audited protocols.",
+      description: "Built on BNB blockchain with full transparency, smart contracts, and community-audited protocols.",
       gradient: "from-accent/60 to-primary/60"
     },
     {
